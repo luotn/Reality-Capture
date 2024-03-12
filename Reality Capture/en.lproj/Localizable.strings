@@ -1,0 +1,65 @@
+/* 
+  Localizable.strings
+  Reality Capture
+
+  Created by 罗天宁 on 26/04/2022.
+  
+*/
+
+"Current Capture Info" = "Current Capture Info";
+"High Quality" = "High Quality";
+"Low Quality" = "Low Quality";
+"Unavaliable" = "Unavaliable";
+
+"Gravity Info" = "Gravity Info";
+"Gravity" = "Gravity";
+"Scan" = "Scan";
+"Depth" = "Depth";
+"Captures" = "Captures";
+"Recommended" = "Recommended";
+
+"Auto Capture" = "Auto Capture";
+"Captures: " = "Captures: ";
+"Captures" = "Captures";
+
+"New Session" = "New Session";
+
+" images" = " images";
+"Delete" = "Delete";
+
+"Object Characteristics" = "Object Characteristics";
+"Opaque, matte objects with varied surface textures scan best." = "Opaque, matte objects with varied surface textures scan best.";
+" Capture all sides of your object in a series of orbits.\n" = " Capture all sides of your object in a series of orbits.\n";
+"Varied Surface Texture" = "Varied Surface Texture";
+"Non-reflective, matte surface" = "Non-reflective, matte surface";
+"Solid, opaque" = "Solid, opaque";
+"Uniform Surface Texture" = "Uniform Surface Texture";
+"Shiny" = "Shiny";
+"Transparent, transluscent" = "Transparent, transluscent";
+"Thin structures" = "Thin structures";
+
+"Photography Tips" = "Photography Tips";
+"Adjacent shots should have 70% overlap or more for alignment." = "Adjacent shots should have 70% overlap or more for alignment.";
+" Each object will need a different number of photos, but aim for between 20-200." = " Each object will need a different number of photos, but aim for between 20-200.";
+"Capture all sides of an object" = "Capture all sides of an object";
+"Capture between 20-200 images" = "Capture between 20-200 images";
+"70%+ overlap between photos" = "70%+ overlap between photos";
+"Consistent focus and image quality" = "Consistent focus and image quality";
+"Parts of object out of frame" = "Parts of object out of frame";
+"Inconsistent camera settings" = "Inconsistent camera settings";
+
+"Environment Characteristics" = "Environment Characteristics";
+"Make sure you have even, good lighting and a stable environment for scanning." = "Make sure you have even, good lighting and a stable environment for scanning.";
+" If scanning outdoors, cloudy days work best.\n" = " If scanning outdoors, cloudy days work best.\n";
+"Diffuse lighting" = "Diffuse lighting";
+"Space around intended object" = "Space around intended object";
+"Sunny, directional lighting" = "Sunny, directional lighting";
+"Inconsistent shadows" = "Inconsistent shadows";
+
+"Workflow Tips" = "Workflow Tips";
+"Use this app to capture image, depth and gravity data for photogrammetry session." = "Use this app to capture image, depth and gravity data for photogrammetry session.";
+" Works best with IOS devices with LiDAR sensor and Macs with Apple Silicon chip.\n" = " Works best with IOS devices with LiDAR sensor and Macs with Apple Silicon chip.\n";
+"iPhone with LiDAR sensor" = "iPhone with LiDAR sensor";
+"Mac with Apple Silicon chip" = "Mac with Apple Silicon chip";
+"Damaged/Malfunction Camera" = "Damaged/Malfunction Camera";
+"Intel Mac with less than 16GB RAM and/or without discrete AMD GPU and/or VRAM less than 4GB" = "Intel Mac with less than 16GB RAM and/or without discrete AMD GPU and/or VRAM less than 4GB";

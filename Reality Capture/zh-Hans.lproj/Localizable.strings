@@ -1,0 +1,66 @@
+/* 
+  Localizable.strings
+  Reality Capture
+
+  Created by 罗天宁 on 26/04/2022.
+  
+*/
+
+"Current Capture Info" = "当前捕捉";
+"High Quality" = "高质量";
+"Low Quality" = "低质量";
+"Unavaliable" = "无法使用";
+
+"Gravity Info" = "重力信息";
+"Gravity" = "重力";
+"Scan" = "扫描";
+"Depth" = "深度";
+"Captures" = "捕捉";
+"Recommended" = "推荐数量";
+
+"Auto Capture" = "自动捕捉";
+"Captures: " = "捕捉数量: ";
+"Captures" = "捕捉";
+
+"New Session" = "新捕捉";
+
+" images" = "个数据点";
+"NONE" = "无数据";
+"Delete" = "删除";
+
+"Object Characteristics" = "物体特点";
+"Opaque, matte objects with varied surface textures scan best." = "不透明、哑光且有多种表面材质的物体会获得最好的扫描效果。";
+" Capture all sides of your object in a series of orbits.\n" = " 围绕物体拍摄其所有表面。\n";
+"Varied Surface Texture" = "多种表面材质";
+"Non-reflective, matte surface" = "不反光、哑光的表面";
+"Solid, opaque" = "实心、不透明";
+"Uniform Surface Texture" = "表面材质单一";
+"Shiny" = "反光";
+"Transparent, transluscent" = "透明或半透明";
+"Thin structures" = "有纤细结构";
+
+"Photography Tips" = "拍摄技巧";
+"Adjacent shots should have 70% overlap or more for alignment." = "相邻的图像应有70%以上重叠以用于对齐。";
+" Each object will need a different number of photos, but aim for between 20-200." = " 每个物体需要不同数量的图像，但应尽量控制在20至200张图像内。";
+"Capture all sides of an object" = "拍摄物体全部角度";
+"Capture between 20-200 images" = "捕捉20至200张图像";
+"70%+ overlap between photos" = "图像间有70%以上重叠";
+"Consistent focus and image quality" = "一致的焦点及图像质量";
+"Parts of object out of frame" = "物体部分超出边框";
+"Inconsistent camera settings" = "不一致的相机设置";
+
+"Environment Characteristics" = "环境特点";
+"Make sure you have even, good lighting and a stable environment for scanning." = "确保有均匀、良好的照明和稳定的扫描环境。";
+" If scanning outdoors, cloudy days work best.\n" = " 如果在户外捕捉，多云天气效果最佳。\n";
+"Diffuse lighting" = "漫射照明";
+"Space around intended object" = "物体周围有足够空间";
+"Sunny, directional lighting" = "晴天、定向照明";
+"Inconsistent shadows" = "阴影不一致";
+
+"Workflow Tips" = "工作流程技巧";
+"Use this app to capture image, depth and gravity data for photogrammetry session." = "用本应用为重构三维模型捕获图像、深度以及重力数据。";
+" Works best with IOS devices with LiDAR sensor and Macs with Apple Silicon chip.\n" = " 将装有激光雷达传感器(LiDAR)的iPhone与搭载Apple芯片Mac搭配使用时效果最佳。\n";
+"iPhone with LiDAR sensor" = "配有激光雷达传感器的iPhone";
+"Mac with Apple Silicon chip" = "装有Apple芯片的Mac";
+"Damaged/Malfunction Camera" = "摄像头损坏或无法正常工作";
+"Intel Mac with less than 16GB RAM and/or without discrete AMD GPU and/or VRAM less than 4GB" = "小于16GB内存的集成显卡英特尔芯片Mac或显存小于4GB的AMD独立显卡";

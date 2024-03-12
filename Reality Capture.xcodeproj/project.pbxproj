@@ -11,6 +11,24 @@
 		73C691E52818578A009D09A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C691E42818578A009D09A0 /* ContentView.swift */; };
 		73C691E72818578B009D09A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73C691E62818578B009D09A0 /* Assets.xcassets */; };
 		73C691EA2818578B009D09A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73C691E92818578B009D09A0 /* Preview Assets.xcassets */; };
+		73C691F12818580D009D09A0 /* AsyncImageHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C691F02818580D009D09A0 /* AsyncImageHelpers.swift */; };
+		73C691F328185837009D09A0 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C691F228185837009D09A0 /* CameraViewModel.swift */; };
+		73C691F528185856009D09A0 /* CaptureFolderState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C691F428185856009D09A0 /* CaptureFolderState.swift */; };
+		73C691F728185871009D09A0 /* CaptureFoldersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C691F628185871009D09A0 /* CaptureFoldersView.swift */; };
+		73C691F928185891009D09A0 /* CaptureGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C691F828185891009D09A0 /* CaptureGalleryView.swift */; };
+		73C691FB281858C6009D09A0 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C691FA281858C6009D09A0 /* CameraPreviewView.swift */; };
+		73C691FD281858E0009D09A0 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C691FC281858E0009D09A0 /* CameraView.swift */; };
+		73C691FF281858FE009D09A0 /* Capture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C691FE281858FE009D09A0 /* Capture.swift */; };
+		73C6920128185917009D09A0 /* CaptureInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C6920028185917009D09A0 /* CaptureInfo.swift */; };
+		73C6920328185932009D09A0 /* TriggerEveryTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C6920228185932009D09A0 /* TriggerEveryTimer.swift */; };
+		73C692052818595A009D09A0 /* HelpPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C692042818595A009D09A0 /* HelpPageView.swift */; };
+		73C6920728185973009D09A0 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C6920628185973009D09A0 /* ImageLoader.swift */; };
+		73C692092818598F009D09A0 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C692082818598F009D09A0 /* InfoPanelView.swift */; };
+		73C6920B281859B7009D09A0 /* PhotoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C6920A281859B7009D09A0 /* PhotoCaptureDelegate.swift */; };
+		73C6920D281859CF009D09A0 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C6920C281859CF009D09A0 /* TimerView.swift */; };
+		73C69211281861D0009D09A0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 73C69213281861D0009D09A0 /* Localizable.strings */; };
+		73E2F7A92B87529D00F60558 /* PhotogrammetryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E2F7A82B87529D00F60558 /* PhotogrammetryView.swift */; };
+		73E2F7AB2B87536300F60558 /* Constructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E2F7AA2B87536300F60558 /* Constructor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +37,26 @@
 		73C691E42818578A009D09A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		73C691E62818578B009D09A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73C691E92818578B009D09A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		73C691F02818580D009D09A0 /* AsyncImageHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageHelpers.swift; sourceTree = "<group>"; };
+		73C691F228185837009D09A0 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+		73C691F428185856009D09A0 /* CaptureFolderState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureFolderState.swift; sourceTree = "<group>"; };
+		73C691F628185871009D09A0 /* CaptureFoldersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureFoldersView.swift; sourceTree = "<group>"; };
+		73C691F828185891009D09A0 /* CaptureGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureGalleryView.swift; sourceTree = "<group>"; };
+		73C691FA281858C6009D09A0 /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		73C691FC281858E0009D09A0 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		73C691FE281858FE009D09A0 /* Capture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Capture.swift; sourceTree = "<group>"; };
+		73C6920028185917009D09A0 /* CaptureInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureInfo.swift; sourceTree = "<group>"; };
+		73C6920228185932009D09A0 /* TriggerEveryTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriggerEveryTimer.swift; sourceTree = "<group>"; };
+		73C692042818595A009D09A0 /* HelpPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpPageView.swift; sourceTree = "<group>"; };
+		73C6920628185973009D09A0 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		73C692082818598F009D09A0 /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
+		73C6920A281859B7009D09A0 /* PhotoCaptureDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureDelegate.swift; sourceTree = "<group>"; };
+		73C6920C281859CF009D09A0 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		73C6920E28185BD6009D09A0 /* Reality-Capture-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Reality-Capture-Info.plist"; sourceTree = SOURCE_ROOT; };
+		73C69212281861D0009D09A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		73C69214281861DE009D09A0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		73E2F7A82B87529D00F60558 /* PhotogrammetryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotogrammetryView.swift; sourceTree = "<group>"; };
+		73E2F7AA2B87536300F60558 /* Constructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constructor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +89,27 @@
 		73C691E12818578A009D09A0 /* Reality Capture */ = {
 			isa = PBXGroup;
 			children = (
+				73C6920E28185BD6009D09A0 /* Reality-Capture-Info.plist */,
 				73C691E22818578A009D09A0 /* Reality_CaptureApp.swift */,
+				73C691F02818580D009D09A0 /* AsyncImageHelpers.swift */,
+				73C691F228185837009D09A0 /* CameraViewModel.swift */,
+				73C691F428185856009D09A0 /* CaptureFolderState.swift */,
+				73C691F628185871009D09A0 /* CaptureFoldersView.swift */,
+				73C691F828185891009D09A0 /* CaptureGalleryView.swift */,
+				73C691FA281858C6009D09A0 /* CameraPreviewView.swift */,
+				73C691FC281858E0009D09A0 /* CameraView.swift */,
+				73C691FE281858FE009D09A0 /* Capture.swift */,
+				73C6920028185917009D09A0 /* CaptureInfo.swift */,
+				73C6920228185932009D09A0 /* TriggerEveryTimer.swift */,
+				73C692042818595A009D09A0 /* HelpPageView.swift */,
+				73E2F7A82B87529D00F60558 /* PhotogrammetryView.swift */,
+				73E2F7AA2B87536300F60558 /* Constructor.swift */,
+				73C6920628185973009D09A0 /* ImageLoader.swift */,
+				73C692082818598F009D09A0 /* InfoPanelView.swift */,
+				73C6920A281859B7009D09A0 /* PhotoCaptureDelegate.swift */,
+				73C6920C281859CF009D09A0 /* TimerView.swift */,
 				73C691E42818578A009D09A0 /* ContentView.swift */,
+				73C69213281861D0009D09A0 /* Localizable.strings */,
 				73C691E62818578B009D09A0 /* Assets.xcassets */,
 				73C691E82818578B009D09A0 /* Preview Content */,
 			);
@@ -95,7 +152,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					73C691DE2818578A009D09A0 = {
 						CreatedOnToolsVersion = 13.3.1;
@@ -109,6 +166,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 73C691D62818578A009D09A0;
 			productRefGroup = 73C691E02818578A009D09A0 /* Products */;
@@ -126,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73C691EA2818578B009D09A0 /* Preview Assets.xcassets in Resources */,
+				73C69211281861D0009D09A0 /* Localizable.strings in Resources */,
 				73C691E72818578B009D09A0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,18 +196,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73C6920728185973009D09A0 /* ImageLoader.swift in Sources */,
+				73C691FB281858C6009D09A0 /* CameraPreviewView.swift in Sources */,
+				73C6920128185917009D09A0 /* CaptureInfo.swift in Sources */,
 				73C691E52818578A009D09A0 /* ContentView.swift in Sources */,
+				73C691F328185837009D09A0 /* CameraViewModel.swift in Sources */,
+				73C692052818595A009D09A0 /* HelpPageView.swift in Sources */,
+				73C691FD281858E0009D09A0 /* CameraView.swift in Sources */,
+				73C6920D281859CF009D09A0 /* TimerView.swift in Sources */,
+				73C691F928185891009D09A0 /* CaptureGalleryView.swift in Sources */,
+				73C6920328185932009D09A0 /* TriggerEveryTimer.swift in Sources */,
 				73C691E32818578A009D09A0 /* Reality_CaptureApp.swift in Sources */,
+				73C691F728185871009D09A0 /* CaptureFoldersView.swift in Sources */,
+				73C691F12818580D009D09A0 /* AsyncImageHelpers.swift in Sources */,
+				73C691FF281858FE009D09A0 /* Capture.swift in Sources */,
+				73E2F7AB2B87536300F60558 /* Constructor.swift in Sources */,
+				73E2F7A92B87529D00F60558 /* PhotogrammetryView.swift in Sources */,
+				73C691F528185856009D09A0 /* CaptureFolderState.swift in Sources */,
+				73C6920B281859B7009D09A0 /* PhotoCaptureDelegate.swift in Sources */,
+				73C692092818598F009D09A0 /* InfoPanelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		73C69213281861D0009D09A0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73C69212281861D0009D09A0 /* en */,
+				73C69214281861DE009D09A0 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		73C691EB2818578B009D09A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -181,6 +270,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -195,7 +285,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -209,6 +299,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -241,6 +332,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -249,7 +341,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -270,11 +362,18 @@
 				DEVELOPMENT_TEAM = 2APZ6GJB83;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Reality-Capture-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Reality Capture";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "CaptureSample uses the camera to take photos and preview video.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,6 +381,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TianningDigital.Reality-Capture";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,11 +402,18 @@
 				DEVELOPMENT_TEAM = 2APZ6GJB83;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Reality-Capture-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Reality Capture";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "CaptureSample uses the camera to take photos and preview video.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +421,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.TianningDigital.Reality-Capture";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

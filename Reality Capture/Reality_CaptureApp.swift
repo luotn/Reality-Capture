@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct Reality_CaptureApp: App {
+    
+    @StateObject var model = CameraViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(model: model)
         }
     }
 }

@@ -8,14 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var model: CameraViewModel
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            // Make the entire background black.
+            Color.black.edgesIgnoringSafeArea(.all)
+            CameraView(model: model)
+        }
+        // Force dark mode so the photos pop.
+        .environment(\.colorScheme, .dark)
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
+    @StateObject private static var model = CameraViewModel()
     static var previews: some View {
-        ContentView()
+        ContentView(model: model)
     }
 }
