@@ -19,7 +19,6 @@ struct ContentView: View {
         // Force dark mode so the photos pop.
         .environment(\.colorScheme, .dark)
     }
-    
 }
 
 struct ContentView_Previews: PreviewProvider {
